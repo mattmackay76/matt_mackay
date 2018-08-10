@@ -6,7 +6,8 @@ import SearchBar from "./components/search_bar";
 import VideoList from "./components/video_list";
 import VideoDetail from "./components/video_detail";
 import './index.css';
-const API_KEY = "[DO NOT CHECK IN API]";
+import  API_KEY from './api-key';
+
 
 class App extends Component {
   constructor(props) {
